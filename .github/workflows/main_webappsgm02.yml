@@ -63,4 +63,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'webappsgm02'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD1DCB4D6D7142029B92E935B5D6FFEC }}
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_84C17BABEE874E678B8C479AB0506B87 }}
