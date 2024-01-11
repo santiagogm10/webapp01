@@ -139,7 +139,8 @@ with st.container(border=True):
     with col2:
         # Calculo de Varianza y Volatilidad
         # Ingresar la ruta donde se encuentran los archivos Matriz, Participaciones y demás
-        df_dim_FIC_SubTipoActivo = calc_var_y_volat("C:/Users/santiago.gomez_bluet/Documents/SGM/Proyectos/CrediCorp/Calculadora Portafolio Modelo/calculadorahastavector/Archivos Pruebas")
+        st.write("COLUMNA 2 ")
+        # df_dim_FIC_SubTipoActivo = calc_var_y_volat("C:/Users/santiago.gomez_bluet/Documents/SGM/Proyectos/CrediCorp/Calculadora Portafolio Modelo/calculadorahastavector/Archivos Pruebas")
 
         # Calculo del Vector de Posicionamiento
-        calc_vector_pos(df, df_dim_FIC_SubTipoActivo)
+        # calc_vector_pos(df, df_dim_FIC_SubTipoActivo)
