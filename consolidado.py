@@ -125,7 +125,7 @@ with st.sidebar:
         "Barra Lateral"
 
 with st.container():
-    st.markdown("<h1 style='text-align: center;'>Calculadora de Fondos</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Calculadora de Fondos V2</h1>", unsafe_allow_html=True)
 
 #st.write(""" ## Paso 0 - Entrada de Datos """)
 
